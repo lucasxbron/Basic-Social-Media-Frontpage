@@ -119,34 +119,6 @@ main {
     margin-bottom: 20px;
 }
 
-/* .image-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-} */
-
-/* .image-grid {
-    display: block;
-    gap: 40px;
-} */
-
-/* .image-single {
-    background-color: #ddd;
-    padding-top: 100%;
-    position: relative;
-} */
-
-/* .image-single:before {
-    content: '';
-    display: block;
-    padding-top: 100%;
-} */
-
-/* .image-single {
-    background: url('https://via.placeholder.com/400') no-repeat center center;
-    background-size: cover;
-} */
-
 .images {
     background-color: #fff;
     border: 1px solid #e0e0e0;
