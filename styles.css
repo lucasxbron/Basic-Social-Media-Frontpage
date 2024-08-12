@@ -52,6 +52,10 @@ header nav ul li {
     margin-left: 20px;
 }
 
+header nav ul li a i {
+    margin-top: 8px;
+}
+
 header nav ul li a {
     text-decoration: none;
     color: #333;
@@ -92,7 +96,7 @@ main {
 
 .login form input {
     display: block;
-    width: 92%;
+    width: 93%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -127,6 +131,8 @@ main {
 
 .images h2 {
     margin-bottom: 20px;
+    /* text-align: left;
+    margin-left: 120px; */
 }
 
 .images {
@@ -165,4 +171,44 @@ footer {
     width: 100%;
     bottom: 0;
     height: 30px;
+}
+
+.link-no-style {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* .separator::after {
+    content: '';
+    display: inline-block;
+    max-width: 80%;
+    height: 1px;
+    background-color: #333;
+    margin-left: 10px;
+    vertical-align: middle;
+} */
+
+.search-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.search-wrapper i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+    font-size: 16px;
+}
+
+.search input {
+    width: 12vw;
+    padding: 8px 8px 8px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+header nav ul li form {
+    margin-right: 40px;
 }

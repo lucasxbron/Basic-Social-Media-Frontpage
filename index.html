@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>instaface</title>
+    <title>instaface | Explore the World</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,16 +23,39 @@
   <body>
     <header>
       <div class="logo">
-        <img src="assets/instaface-logo.png" alt="instaface logo" />
+        <a href="index.html" class="link-no-style"
+          ><img src="assets/instaface-logo.png" alt="instaface logo"
+        /></a>
       </div>
-      <div class="page-title">instaface</div>
+      <div class="page-title">
+        <a href="index.html" class="link-no-style">instaface</a>
+      </div>
       <nav>
         <div class="main-menu">
           <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Popular</a></li>
-            <li><a href="">Explore</a></li>
-            <li><a href="">Profile</a></li>
+            <li>
+              <form class="search">
+                <div class="search-wrapper">
+                  <i class="fas fa-search"></i>
+                  <input type="text" placeholder="Search" />
+                </div>
+              </form>
+            </li>
+            <li>
+              <a href=""><i class="fa-solid fa-house"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-solid fa-heart"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-solid fa-compass"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-solid fa-user"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-solid fa-bars"></i></a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -50,7 +73,7 @@
       </section>
 
       <section class="images">
-        <h2>Explore the World</h2>
+        <h2 class="separator">Explore the World</h2>
         <div class="image-single">
           <img
             src="assets/social-media-placeholder(1).jpeg"
