@@ -13,6 +13,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 
 header .page-title {
@@ -41,6 +45,7 @@ header nav ul {
     margin: 0;
     padding: 0;
     display: flex;
+    margin-right: 40px;
 }
 
 header nav ul li {
@@ -58,6 +63,10 @@ header nav ul li a {
 
 header nav ul li a:hover {
     background-color: #e0e0e0;
+}
+
+body {
+    margin-top: 90px;
 }
 
 main {
